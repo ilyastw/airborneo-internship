@@ -180,54 +180,95 @@ body {
 
 /* How to Apply Banner */
 .internship-ready-to-apply__banner {
-  background: linear-gradient(135deg, #daaa5f 0%, #c89850 100%);
-  border-radius: 16px;
-  padding: 48px 60px;
-  max-width: 1040px;
-  margin: 0 auto 60px;
+  background: radial-gradient(
+    196.12% 396.37% at 2.46% 0.21%,
+    #daaa5f 0%,
+    #be862d 100%
+  );
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  align-content: start;
+  justify-content: center;
+  justify-items: center;
   text-align: center;
+  gap: 32px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 42px;
+  box-sizing: border-box;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
 }
 
 @media (max-width: 1024px) {
   .internship-ready-to-apply__banner {
-    padding: 40px 48px;
-    margin-bottom: 48px;
+    padding: 42px 62.5px;
   }
 }
 
 @media (max-width: 768px) {
   .internship-ready-to-apply__banner {
-    padding: 32px 24px;
-    margin-bottom: 40px;
+    padding: 32px;
   }
 }
 
+.internship-ready-to-apply__banner-title-description-wrapper {
+  display: grid;
+  width: 100%;
+  gap: 16px;
+}
+
+.internship-ready-to-apply__banner-title-wrapper {
+  display: grid;
+  width: 100%;
+  gap: 8px;
+}
+
 .internship-ready-to-apply__banner-title {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
   color: white;
-  margin: 0 0 24px 0;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 @media (max-width: 1024px) {
   .internship-ready-to-apply__banner-title {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
-@media (max-width: 768px) {
-  .internship-ready-to-apply__banner-title {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
+/* Title Divider */
+.internship-ready-to-apply__banner-title-divider {
+  width: 48px;
+  height: 4px;
+  background: #daaa5f;
+  margin: 0 auto;
+}
+
+.internship-ready-to-apply__banner-description {
+  font-size: 14px;
+  color: white;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0px;
+  letter-spacing: 2%;
+}
+
+.internship-ready-to-apply__banner-link {
+  color: white;
+  text-decoration: underline;
+  font-weight: 400;
+  letter-spacing: 2%;
+  margin: 0px;
 }
 
 .internship-ready-to-apply__banner-text {
   font-size: 15px;
   color: white;
   line-height: 28px;
-  margin: 0 0 8px 0;
+  margin: 0px;
 }
 
 .internship-ready-to-apply__banner-text--spaced {
@@ -243,12 +284,6 @@ body {
   .internship-ready-to-apply__banner-text--spaced {
     margin-top: 20px;
   }
-}
-
-.internship-ready-to-apply__banner-link {
-  color: white;
-  text-decoration: underline;
-  font-weight: 600;
 }
 
 .internship-ready-to-apply__banner-note {
