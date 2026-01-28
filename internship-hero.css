@@ -207,12 +207,8 @@ body {
     line-height: 26px;
   }
 
-  .internship-hero__partnership {
-    padding: 24px 24px;
-  }
-
   .internship-hero__partnership-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .internship-hero__partnership-divider {
@@ -265,10 +261,6 @@ body {
 
   .internship-hero__partnership {
     padding: 24px;
-  }
-
-  .internship-hero__partnership-title {
-    font-size: 20px;
   }
 
   .internship-hero__partnership-divider {
