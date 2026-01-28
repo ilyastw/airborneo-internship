@@ -99,6 +99,7 @@ body {
   position: relative;
   border-radius: 24px;
   padding: 42px 0px;
+  display: flex;
   width: 100%;
   max-width: 1064px;
   margin: 0 auto;
@@ -107,6 +108,7 @@ body {
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 .internship-hero__partnership-content {
@@ -274,7 +276,10 @@ body {
   }
 
   .internship-hero__partnership {
-    padding: 24px;
+    padding-block: 24px;
+    padding-inline: 24px;
+    display: flex;
+    width: 100%;
   }
 
   .internship-hero__partnership-divider {
