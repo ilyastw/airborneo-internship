@@ -1,0 +1,290 @@
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Nunito Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Container */
+.internship-hero__container {
+  display: grid;
+  gap: 24px;
+  max-width: 1064px;
+  margin: 0 auto;
+  padding-block: 64px;
+}
+
+/* Internship Hero Section */
+.internship-hero__section {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
+.internship-hero__image-wrapper {
+  flex: 1;
+  max-width: 652px;
+}
+
+.internship-hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 24px 0px #1f25321f;
+}
+
+.internship-hero__content {
+  flex: 1;
+  max-width: 412px;
+  display: grid;
+  gap: 24px;
+}
+
+.internship-hero__title {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  color: #221f1f;
+  border-left: 4px solid #daaa5f;
+  padding-left: 8px;
+}
+
+.internship-hero__description {
+  color: #221f1f;
+  line-height: 28px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.internship-hero__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.internship-hero__list-item {
+  color: #221f1f;
+  line-height: 28px;
+  padding-left: 20px;
+  position: relative;
+  font-size: 16px;
+}
+
+.internship-hero__list-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #d4a574;
+}
+
+/* Partnership Section */
+.internship-hero__partnership {
+  position: relative;
+  border-radius: 24px;
+  padding: 42px 0px;
+  width: 100%;
+  max-width: 1064px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url("https://airborneo-iacatj-dev1.fa.ocs.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=2023921A-6835-4A80-B5FD-0EE3BF8789D9");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.internship-hero__partnership-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 571px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.internship-hero__partnership-title {
+  font-size: 24px;
+  margin-block: 0px;
+  color: white;
+  font-weight: 600;
+}
+
+.internship-hero__partnership-divider {
+  width: 48px;
+  height: 4px;
+  background: #901a1c;
+  margin: 0 auto;
+}
+
+.internship-hero__partnership-text {
+  color: white;
+  line-height: 28px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.internship-hero__partnership-text--weight-normal {
+  font-weight: 400;
+}
+
+/* Tablet Styles (1024px and below) */
+@media (max-width: 1024px) {
+  .internship-hero__container {
+    padding: 32px 20px;
+    gap: 32px;
+  }
+
+  .internship-hero__section {
+    padding: 40px 0px;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .internship-hero__image-wrapper {
+    max-width: 50%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .internship-hero__content {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .internship-hero__partnership {
+    padding-block: 42px;
+  }
+}
+
+/* Tablet Small / Large Mobile (768px and below) */
+@media (max-width: 768px) {
+  .internship-hero__container {
+    padding: 32px 16px;
+    gap: 24px;
+  }
+
+  .internship-hero__section {
+    flex-direction: column;
+    padding: 32px 0px;
+    gap: 24px;
+  }
+
+  .internship-hero__image-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .internship-hero__title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .internship-hero__description {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .internship-hero__list-item {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .internship-hero__partnership {
+    padding: 24px 24px;
+  }
+
+  .internship-hero__partnership-title {
+    font-size: 22px;
+  }
+
+  .internship-hero__partnership-divider {
+    width: 40px;
+    margin: 0 auto 24px auto;
+  }
+
+  .internship-hero__partnership-text {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+/* Mobile Styles (375px and below) */
+@media (max-width: 375px) {
+  .internship-hero__container {
+    padding: 24px 16px;
+    gap: 24px;
+  }
+
+  .internship-hero__section {
+    padding: 24px 0px;
+    gap: 24px;
+  }
+
+  .internship-hero__image {
+    border-radius: 8px;
+  }
+
+  .internship-hero__content {
+    gap: 16px;
+  }
+
+  .internship-hero__title {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 6px;
+    border-left-width: 3px;
+  }
+
+  .internship-hero__description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .internship-hero__list {
+    gap: 8px;
+  }
+
+  .internship-hero__list-item {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 18px;
+  }
+
+  .internship-hero__partnership {
+    padding: 24px;
+  }
+
+  .internship-hero__partnership-title {
+    font-size: 20px;
+  }
+
+  .internship-hero__partnership-divider {
+    width: 36px;
+    height: 3px;
+    margin: 0 auto 20px auto;
+  }
+
+  .internship-hero__partnership-text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .internship-hero__partnership-text--spacing {
+    margin: 0 0 16px 0;
+  }
+}
