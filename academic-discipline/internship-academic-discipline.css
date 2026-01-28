@@ -180,9 +180,3 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-
-@media (max-width: 768px) {
-  .internship-academic-discipline__card-text {
-    font-size: 13px;
-  }
-}
