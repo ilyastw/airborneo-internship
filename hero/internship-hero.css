@@ -189,13 +189,13 @@ body {
   background-position: center !important;
   background-repeat: no-repeat !important;
   box-sizing: border-box !important;
-  background-image: url("internship-partnership-desktop.png") !important;
+  background-image: url("https://airborneo-iacatj-dev1.fa.ocs.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=E5C15B49-D649-42F9-B699-76936B2EC10C") !important;
 }
 
 @media (max-width: 1024px) {
   .internship-hero__partnership {
     padding-block: 42px !important;
-    background-image: url("internship-partnership-tablet.png") !important;
+    background-image: url("https://airborneo-iacatj-dev1.fa.ocs.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=919D3C84-1FB4-4E2F-9BE2-1EA0D808A8D7") !important;
   }
 }
 
@@ -203,7 +203,7 @@ body {
   .internship-hero__partnership {
     padding-block: 24px !important;
     padding-inline: 24px !important;
-    background-image: url("internship-partnership-tablet.png") !important;
+    background-image: url("https://airborneo-iacatj-dev1.fa.ocs.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=919D3C84-1FB4-4E2F-9BE2-1EA0D808A8D7") !important;
   }
 }
 
@@ -211,7 +211,7 @@ body {
   .internship-hero__partnership {
     padding-block: 24px !important;
     padding-inline: 24px !important;
-    background-image: url("internship-partnership-mobile.png") !important;
+    background-image: url("https://airborneo-iacatj-dev1.fa.ocs.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=6F7E74F9-C732-4EF8-A0AA-C9207D76A339") !important;
   }
 }
 
