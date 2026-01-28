@@ -176,8 +176,9 @@ body {
 
 .internship-academic-discipline__card-text {
   font-size: 14px;
-  color: #221f1f;
-  font-weight: 500;
+  color: #161413;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 @media (max-width: 768px) {
