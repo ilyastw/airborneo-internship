@@ -123,6 +123,14 @@ body {
   flex-direction: column;
 }
 
+.internship-hero__partnership-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 .internship-hero__partnership-title {
   font-size: 24px;
   margin-block: 0px;
@@ -135,6 +143,12 @@ body {
   height: 4px;
   background: #901a1c;
   margin: 0 auto;
+}
+
+.internship-hero__partnership-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .internship-hero__partnership-text {
@@ -266,6 +280,5 @@ body {
   .internship-hero__partnership-divider {
     width: 36px;
     height: 3px;
-    margin: 0 auto 20px auto;
   }
 }
