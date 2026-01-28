@@ -19,168 +19,173 @@ body {
 /* Internship Academic Discipline */
 /* Container */
 .internship-academic-discipline__container {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-  box-sizing: border-box;
-  gap: 24px;
-  max-width: 1088px;
-  margin: 0 auto;
-  padding: 64px 24px;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  gap: 24px !important;
+  max-width: 1088px !important;
+  margin: 0 auto !important;
+  padding: 64px 24px !important;
 }
 
 @media (max-width: 768px) {
   .internship-academic-discipline__container {
-    padding: 24px 16px;
+    padding: 24px 16px !important;
   }
 }
 
 /* Section */
 .internship-academic-discipline__section {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  place-content: start;
-  place-items: start;
-  gap: 24px;
-  width: 100%;
+  display: grid !important;
+  grid-template-columns: auto 1fr !important;
+  place-content: start !important;
+  place-items: start !important;
+  gap: 24px !important;
+  width: 100% !important;
 }
 
 @media (max-width: 1024px) {
   .internship-academic-discipline__section {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 }
 
 /* Image Left */
 .internship-academic-discipline__image-wrapper {
-  display: grid;
+  display: grid !important;
 }
 
 @media (max-width: 1024px) {
   .internship-academic-discipline__image-wrapper {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
 .internship-academic-discipline__image {
-  width: 100%;
-  height: 277px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0px 0px 24px 0px #1f25321f;
+  width: 100% !important;
+  height: 277px !important;
+  object-fit: cover !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 0px 24px 0px #1f25321f !important;
 }
 
 @media (max-width: 1024px) {
   .internship-academic-discipline__image {
-    object-position: 0px -80px;
-    height: 212px;
+    object-position: 0px -80px !important;
+    height: 212px !important;
   }
 }
 
 @media (max-width: 768px) {
   .internship-academic-discipline__image {
-    width: 100%;
-    object-position: 0px 0px;
+    width: 100% !important;
+    object-position: 0px 0px !important;
   }
 }
 
 /* Content Right */
 .internship-academic-discipline__content {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-  gap: 24px;
-  align-content: start;
-  padding: 0px 32px;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  width: 100% !important;
+  gap: 24px !important;
+  align-content: start !important;
+  padding: 0px 32px !important;
 }
 
 @media (max-width: 1024px) {
   .internship-academic-discipline__content {
-    padding: 0px;
+    padding: 0px !important;
   }
 }
 
 .internship-academic-discipline__title-description-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  place-content: start;
-  place-items: start;
-  gap: 24px;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  place-content: start !important;
+  place-items: start !important;
+  gap: 24px !important;
 }
 
 @media (max-width: 1024px) {
   .internship-academic-discipline__title-description-wrapper {
-    gap: 12px;
+    gap: 12px !important;
   }
 }
 
 .internship-academic-discipline__title {
-  font-size: 24px;
-  line-height: 28px;
-  margin: 0;
-  color: #221f1f;
-  border-left: 4px solid #daaa5f;
-  padding-left: 8px;
-  font-weight: 800;
+  font-size: 24px !important;
+  line-height: 28px !important;
+  margin: 0 !important;
+  color: #221f1f !important;
+  border-left: 4px solid #daaa5f !important;
+  padding-left: 8px !important;
+  font-weight: 800 !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 @media (max-width: 1024px) {
   .internship-academic-discipline__title {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 20px !important;
+    line-height: 26px !important;
   }
 }
 
 .internship-academic-discipline__description {
-  color: #221f1f;
-  line-height: 28px;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 400;
+  color: #221f1f !important;
+  line-height: 28px !important;
+  margin: 0 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  padding: 0px !important;
 }
 
 /* Disciplines Grid */
 .internship-academic-discipline__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  width: 100%;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 8px !important;
+  width: 100% !important;
 }
 
 @media (max-width: 768px) {
   .internship-academic-discipline__grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
   }
 }
 
 /* Discipline Card */
 .internship-academic-discipline__card {
-  background: #f8f8f8;
-  border-radius: 8px;
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  background: #f8f8f8 !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
 }
 
 .internship-academic-discipline__icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 4.97px;
-  background-color: #fff;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 4.97px !important;
+  background-color: #fff !important;
 }
 
 .internship-academic-discipline__card-icon {
-  flex-shrink: 0;
+  flex-shrink: 0 !important;
 }
 
 .internship-academic-discipline__card-text {
-  font-size: 14px;
-  color: #161413;
-  font-weight: 400;
-  line-height: 24px;
+  font-size: 14px !important;
+  color: #161413 !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  padding: 0px !important;
 }
