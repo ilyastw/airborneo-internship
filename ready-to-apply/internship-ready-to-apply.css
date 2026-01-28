@@ -14,13 +14,17 @@ body {
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  background: url('internship-ready-to-apply-desktop.png') no-repeat center center fixed;
+  background: url("internship-ready-to-apply-desktop.png") no-repeat center
+    center fixed;
   background-size: cover;
 }
 
 /* Main Container */
 .internship-ready-to-apply__container {
   display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  box-sizing: border-box;
   gap: 32px;
   max-width: 1088px;
   margin: 0 auto;
