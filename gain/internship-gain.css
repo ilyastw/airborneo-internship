@@ -21,94 +21,99 @@ body {
 .internship-gain__container {
   display: grid;
   gap: 24px;
-  max-width: 1064px;
+  max-width: 1088px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 64px 24px;
 }
 
 @media (max-width: 768px) {
   .internship-gain__container {
-    padding: 32px 16px;
+    padding: 42px 24px;
   }
 }
 
 /* Section */
 .internship-gain__section {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 60px 20px;
-}
-
-@media (max-width: 1024px) {
-  .internship-gain__section {
-    padding: 48px 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .internship-gain__section {
-    padding: 40px 16px;
-  }
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  align-items: start;
+  align-content: start;
+  justify-content: center;
+  justify-items: center;
+  gap: 32px;
 }
 
 /* Title */
 .internship-gain__title-wrapper {
   display: grid;
   width: 100%;
+  gap: 8px;
 }
 
 .internship-gain__title {
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 800;
   text-align: center;
   color: #221f1f;
-  margin: 0 0 48px 0;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 @media (max-width: 1024px) {
   .internship-gain__title {
-    font-size: 28px;
-    margin-bottom: 36px;
+    font-size: 20px;
   }
 }
 
-@media (max-width: 768px) {
-  .internship-gain__title {
-    font-size: 24px;
-    margin-bottom: 32px;
-  }
+/* Title Divider */
+.internship-gain__title-divider {
+  width: 48px;
+  height: 4px;
+  background: #daaa5f;
+  margin: 0 auto;
 }
 
 /* Content Grid */
 .internship-gain__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 648px 1fr;
+  gap: 24px;
   align-items: center;
 }
 
 @media (max-width: 1024px) {
   .internship-gain__content {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 32px;
   }
 }
 
 @media (max-width: 768px) {
   .internship-gain__content {
-    gap: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
   }
 }
 
 /* Benefits List */
 .internship-gain__benefits {
   display: grid;
-  gap: 16px;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  padding: 0px 32px;
+}
+
+@media (max-width: 1024px) {
+  .internship-gain__benefits {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 768px) {
   .internship-gain__benefits {
-    gap: 12px;
+    width: 100%;
   }
 }
 
@@ -116,17 +121,16 @@ body {
 .internship-gain__benefit-card {
   background: white;
   border-radius: 12px;
-  padding: 24px 32px;
+  padding: 16px;
   box-shadow: 0px 0px 24px 0px #1f25321f;
   display: flex;
   align-items: flex-start;
-  gap: 20px;
+  gap: 16px;
 }
 
 @media (max-width: 768px) {
   .internship-gain__benefit-card {
-    padding: 20px 24px;
-    gap: 16px;
+    flex-direction: column;
   }
 }
 
@@ -141,19 +145,17 @@ body {
   border-radius: 8px;
 }
 
-@media (max-width: 768px) {
-  .internship-gain__benefit-icon-wrapper {
-    width: 48px;
-    height: 48px;
-  }
-}
-
 .internship-gain__benefit-content {
-  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  width: 100%;
+  place-content: start;
+  place-items: start;
+  height: auto;
 }
 
 .internship-gain__benefit-title {
-  margin: 0 0 8px 0;
   font-size: 18px;
   font-weight: 600;
   color: #221f1f;
