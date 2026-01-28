@@ -26,11 +26,29 @@ body {
   padding: 40px 20px;
 }
 
+@media (max-width: 768px) {
+  .internship-gain__container {
+    padding: 32px 16px;
+  }
+}
+
 /* Section */
 .internship-gain__section {
   max-width: 1400px;
   margin: 0 auto;
   padding: 60px 20px;
+}
+
+@media (max-width: 1024px) {
+  .internship-gain__section {
+    padding: 48px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .internship-gain__section {
+    padding: 40px 16px;
+  }
 }
 
 /* Title */
@@ -47,6 +65,20 @@ body {
   margin: 0 0 48px 0;
 }
 
+@media (max-width: 1024px) {
+  .internship-gain__title {
+    font-size: 28px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .internship-gain__title {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+}
+
 /* Content Grid */
 .internship-gain__content {
   display: grid;
@@ -55,10 +87,29 @@ body {
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .internship-gain__content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .internship-gain__content {
+    gap: 24px;
+  }
+}
+
 /* Benefits List */
 .internship-gain__benefits {
   display: grid;
   gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .internship-gain__benefits {
+    gap: 12px;
+  }
 }
 
 /* Benefit Card */
@@ -72,6 +123,13 @@ body {
   gap: 20px;
 }
 
+@media (max-width: 768px) {
+  .internship-gain__benefit-card {
+    padding: 20px 24px;
+    gap: 16px;
+  }
+}
+
 .internship-gain__benefit-icon-wrapper {
   display: flex;
   align-items: center;
@@ -81,6 +139,13 @@ body {
   height: 52px;
   background-color: #fbf6ef;
   border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .internship-gain__benefit-icon-wrapper {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 .internship-gain__benefit-content {
@@ -94,11 +159,24 @@ body {
   color: #221f1f;
 }
 
+@media (max-width: 768px) {
+  .internship-gain__benefit-title {
+    font-size: 16px;
+  }
+}
+
 .internship-gain__benefit-description {
   margin: 0;
   font-size: 14px;
   color: #666;
   line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  .internship-gain__benefit-description {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
 /* Image Wrapper */
@@ -113,63 +191,4 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-/* Media Queries */
-@media (max-width: 1024px) {
-  .internship-gain__content {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-
-  .internship-gain__section {
-    padding: 48px 20px;
-  }
-
-  .internship-gain__title {
-    font-size: 28px;
-    margin-bottom: 36px;
-  }
-}
-
-@media (max-width: 768px) {
-  .internship-gain__container {
-    padding: 32px 16px;
-  }
-
-  .internship-gain__section {
-    padding: 40px 16px;
-  }
-
-  .internship-gain__title {
-    font-size: 24px;
-    margin-bottom: 32px;
-  }
-
-  .internship-gain__content {
-    gap: 24px;
-  }
-
-  .internship-gain__benefits {
-    gap: 12px;
-  }
-
-  .internship-gain__benefit-card {
-    padding: 20px 24px;
-    gap: 16px;
-  }
-
-  .internship-gain__benefit-icon-wrapper {
-    width: 48px;
-    height: 48px;
-  }
-
-  .internship-gain__benefit-title {
-    font-size: 16px;
-  }
-
-  .internship-gain__benefit-description {
-    font-size: 13px;
-    line-height: 20px;
-  }
 }
