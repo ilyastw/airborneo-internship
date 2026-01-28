@@ -18,94 +18,95 @@ body {
 /* Internship Banner */
 /* Banner Container */
 .internship-banner__container {
-  background: url("internship-banner.png") no-repeat center center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 45px 24px;
-  width: 100%;
-  box-sizing: border-box;
+  /* background: url("internship-banner.png") no-repeat center center; */
+  background: url("https://airborneo-iacatj-dev1.fa.ocs.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=2E4AC388-6681-4F2A-9334-21D859C97B35") no-repeat center center !important;
+  background-size: cover !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 45px 24px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 /* Banner Content */
 .internship-banner__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  text-align: center;
-  max-width: 1200px;
-  width: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  text-align: center !important;
+  max-width: 1200px !important;
+  width: 100% !important;
 }
 
 /* Banner Title */
 .internship-banner__title {
-  font-size: 24px;
-  font-weight: 500;
-  color: #221f1f;
-  margin: 0;
-  line-height: 100%;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  color: #221f1f !important;
+  margin: 0 !important;
+  line-height: 100% !important;
 }
 
 @media (max-width: 768px) {
   .internship-banner__title {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 }
 
 /* Breadcrumb */
 .internship-banner__breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 16px;
-  color: #221f1f;
-  padding-top: 3px;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-size: 16px !important;
+  color: #221f1f !important;
+  padding-top: 3px !important;
 }
 
 @media (max-width: 768px) {
   .internship-banner__breadcrumb {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 
 .internship-banner__breadcrumb-link {
-  font-size: 15px;
-  color: #50504e;
-  line-height: 24px;
-  text-decoration: none;
+  font-size: 15px !important;
+  color: #50504e !important;
+  line-height: 24px !important;
+  text-decoration: none !important;
 }
 
 @media (max-width: 1024px) {
   .internship-banner__breadcrumb-link {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 
 .internship-banner__breadcrumb-separator {
-  line-height: 24px;
-  font-size: 15px;
-  color: #696969;
-  font-weight: 400;
+  line-height: 24px !important;
+  font-size: 15px !important;
+  color: #696969 !important;
+  font-weight: 400 !important;
 }
 
 @media (max-width: 1024px) {
   .internship-banner__breadcrumb-separator {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 
 .internship-banner__breadcrumb-current {
-  line-height: 24px;
-  font-size: 15px;
-  color: #221f1f;
-  font-weight: 400;
+  line-height: 24px !important;
+  font-size: 15px !important;
+  color: #221f1f !important;
+  font-weight: 400 !important;
 }
 
 @media (max-width: 1024px) {
   .internship-banner__breadcrumb-current {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
