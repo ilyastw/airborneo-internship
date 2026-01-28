@@ -182,18 +182,17 @@ body {
   max-width: 1064px;
   margin: 0 auto;
   overflow: hidden;
-  /* background: url("https://airborneo-iacatj-dev1.fa.ocs.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=2023921A-6835-4A80-B5FD-0EE3BF8789D9"); */
-  background: url("internship-partnership-desktop.png");
-  background-size: cover;
-  background-position: right center;
+  background-size: 100% 100%;
+  background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
+  background-image: url("internship-partnership-desktop.png");
 }
 
 @media (max-width: 1024px) {
   .internship-hero__partnership {
     padding-block: 42px;
-    background: url("internship-partnership-tablet.png");
+    background-image: url("internship-partnership-tablet.png");
   }
 }
 
@@ -201,7 +200,15 @@ body {
   .internship-hero__partnership {
     padding-block: 24px;
     padding-inline: 24px;
-    background: url("internship-partnership-mobile.png");
+    background-image: url("internship-partnership-tablet.png");
+  }
+}
+
+@media (max-width: 640px) {
+  .internship-hero__partnership {
+    padding-block: 24px;
+    padding-inline: 24px;
+    background-image: url("internship-partnership-mobile.png");
   }
 }
 
