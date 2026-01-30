@@ -48,21 +48,6 @@ body {
   }
 }
 
-/* Banner Content */
-.internship-banner__content {
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  text-align: center !important;
-  width: 100% !important;
-  z-index: 2 !important;
-}
-
 /* Banner Title */
 .internship-banner__title {
   font-size: 28px !important;
